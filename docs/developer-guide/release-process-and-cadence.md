@@ -4,7 +4,7 @@ Argo CD is being developed using the following process:
 
 * Maintainers commit to work on set of features and enhancements and create GitHub milestone to track the work.
 * We are trying to avoid delaying release and prefer moving the feature into the next release if we cannot complete it on time.
-* The new release is published every **3 month**.
+* The new release is published every **3 months**.
 * Critical bug-fixes are cherry-picked into the release branch and delivered using patch releases as frequently as needed.
 
 ## Release Planning
@@ -32,7 +32,7 @@ We need to make sure that each change, both from maintainers and community contr
 bugs. In order to ensure it, each merged pull request must have an assigned maintainer before it gets merged. The assigned maintainer will be working on
 testing the introduced changes and fixing of any introduced bugs.
 
-We have a code freeze period two weeks before the release until the release branch is created. During code freeze no feature PR should be merged and it is ok
+We have a code freeze period two weeks before the release until the release branch is created. During the code freeze no feature PRs will be merged and it is ok
 to merge bug fixes.
 
 Maintainers assigned to a PR that's been merged should drive testing and work on fixing last-minute issues. For tracking purposes after verifying PR the assigned
